@@ -8,10 +8,13 @@
  
 ## OVERVIEW
 <ul>
-<li><b></b>24/7 Access: Provides round-the-clock availability of sanitary napkins.
+<li><b>24/7 Access: Provides round-the-clock availability of sanitary napkins.
 <li><b>Digital Payments: Supports QR code transactions for quick and cashless purchases.
 <li><b>Hygienic Delivery: Ensures no-contact dispensing to reduce infection risks.
 <li><b>Privacy: Wall-mounted options in girls' washrooms for discreet access.
 <li><b>Stock Notifications: Alerts administrators when stock levels are low.
 <li><b>User-Friendly Interface: Simple design for easy operation.
 <li><b>Awareness Promotion: Helps to combat period poverty and stigma.
+
+## DEMO VIDEO
+
