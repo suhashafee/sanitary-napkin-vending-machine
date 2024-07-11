@@ -5,3 +5,5 @@
  adequate menstrual knowledge, leading to over half missing school during menstruation, with 58% reporting a decline in performance. Stigma and teasing further cause dropouts. Our proposed solution 
  is a 24/7 sanitary napkin vending machine, accessible in various locations, supporting QR code payments, ensuring privacy, and promoting hygiene. This aims to improve menstrual management, reduce 
  absenteeism, and enhance girls' and women's overall well-being.
+ 
+## OVERVIEW
