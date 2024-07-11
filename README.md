@@ -15,7 +15,8 @@
 <li><b>Stock Notifications: Alerts administrators when stock levels are low.
 <li><b>User-Friendly Interface: Simple design for easy operation.
 <li><b>Awareness Promotion: Helps to combat period poverty and stigma.
-
+<li><b>We have also added RFID card for making them reliable.
+ 
 ## DEMO VIDEO
 https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/vending%20video.mp4
 
