@@ -19,3 +19,6 @@
 ## DEMO VIDEO
 https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/vending%20video.mp4
 
+## BLOCK DIAGRAM
+
+
