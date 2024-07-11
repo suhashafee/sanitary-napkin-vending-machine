@@ -17,4 +17,5 @@
 <li><b>Awareness Promotion: Helps to combat period poverty and stigma.
 
 ## DEMO VIDEO
+https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/vending%20video.mp4
 
