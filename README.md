@@ -27,7 +27,7 @@
 | RFID Reader                  | 1        | Reads RFID cards      |                  |
 | LED display                  | 1        | To Notify the operation|                  |
 | ultra sonic sensor           | 1        | Send message to GSM   |                  |
-| 3V-9V DC Micro               | 1        | To rotate the coil    |                  |
+| 3V-9V DC Micro               | 1        | To rotate the coil    |[MOTOR]( https://www.flipkart.com/sp-electron-3v-9v-dc-micro-toy-motor-motor-mini-electric-pack-2-vehicle-starter/p/itm2a96ea879e40cpid=VMSGW8G54YHHGTUY&lid=LSTVMSGW8G54YHHGTUYUXHHIN&marketplace=FLIPKART&cmpid=content_vehicle-starter-motor_8965229628_gmc     )            |
 |GSM module                    | 1        | To notify the user    |                  |
 |                              |          | about the stocks      |                  |
 
