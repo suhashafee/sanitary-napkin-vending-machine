@@ -55,6 +55,9 @@
 ## DEMO VIDEO
 https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/vending%20video.mp4
 
+## Final Vedio
+
+
 ### OBJECTIVES
 <ul>
 <li><b>Ensure 24/7 availability of sanitary napkins in schools, colleges, offices, factories, hostels, and PGs.
