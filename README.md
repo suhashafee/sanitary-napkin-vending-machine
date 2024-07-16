@@ -22,24 +22,26 @@
 
 | Item Name                    | Quantity | Description           | Links to Product |
 |------------------------------|----------|-----------------------|------------------|
-| Arduino Uno Microcontroller  | 1        | Central processor     |                  |
-| RFID Cards                   | 1        | Emotion display       |                  |
-| RFID Reader                  | 1        | Reads RFID cards      |                  |
-| LED display                  | 1        | To Notify the operation|                  |
-| ultra sonic sensor           | 1        | Send message to GSM   |                  |
+| Arduino Uno Microcontroller  | 1        | Central processor     |   [Ardunio uno](https://www.amazon.in/Board-ATmega328P-Cable-Compatible-Projects/dp/B0CY2QDQHW/ref=sr_1_12?dib=eyJ2IjoiMSJ9.gKff2cZc-TTQtoNrhQ-fPaD2yATcW4TtfCFR0GGWbZYLLpZcpfNhKFTUIzMi0Yybnvno5s8mH-65Q0ZhF2sRyvWlGNZSI6uHwBWCoveSDZjFt_bvXMUQrba-LFF88cJyIshxhZWjW0YCScBVlfuTFVFD8AGNVVON2fkH-5D3R6Hfn-WK58CJ1V5WPGM7ZUF0aqJVGpu_lrJ-CKjTgL2t-MNQAOiCF3HbYdbLsxWoYQ4s-NFCIC-0jQh7zhtLs71RWq1bgzw8OgFRa8K-z1eXS1f9yl3nUtD3k3zujv-R2-0.ncKbGl6YvJAXDS7DUr9VCM5WJ4PafkcQVDFSXs8H06Q&dib_tag=se&keywords=arduino+uno&qid=1721052538&sr=8-12)               |
+| RFID Reader                  | 1        | Reads RFID cards      |[RFID Reader](https://www.amazon.in/ApTechDeals-RFID-Kit-Arduino-Raspberry/dp/B07Q1B6QZR/ref=sr_1_1?crid=3ACRMO7I730KG&dib=eyJ2IjoiMSJ9.QFel9f2vOf2vDbvVAqUVl9QpX_uyGB9UovkPYqJ1X7krUmCe7umcx0IDHPlL6FcGT3x0zvAAAHKxGZ5Z4b2dx99drjbtLI89Mb4E11dvvZkZ2KBCcGrqtf6Nu1YYRHGecYMuhtLG4pYbVezMT--PB8OQnicn0KK3RBnOPjgQcF7d2rA3PpJf3q0e1yf6Ap6kkVVjjZdcsJn5V5LZNj8pax5yRN8uEvvoYnNa_SImR76BgZFFpY6Rma9bZ9I5pfF_DN_yGxluYSQuZLoBKEI7qXwQ7dXrKqlXUKKonrjQJ0k.QCcoJgAJ8KyMz8pjxwK036czfVgsX4yQxXkwyDiCVfY&dib_tag=se&keywords=rfid+module+for+arduino&qid=1721052753&sprefix=rfid+modul%2Caps%2C220&sr=8-1)                     |
+| ultra sonic sensor           | 1        | Send message to GSM   |[ultra](https://www.amazon.in/Ultrasonic-Sensor-Module-HC-SR-04-Robokart/dp/B00ZNB01H)I                  |
 | 3V-9V DC Micro               | 1        | To rotate the coil    |[MOTOR]( https://www.flipkart.com/sp-electron-3v-9v-dc-micro-toy-motor-motor-mini-electric-pack-2-vehicle-starter/p/itm2a96ea879e40cpid=VMSGW8G54YHHGTUY&lid=LSTVMSGW8G54YHHGTUYUXHHIN&marketplace=FLIPKART&cmpid=content_vehicle-starter-motor_8965229628_gmc     )            |
-|GSM module                    | 1        | To notify the user    |                  |
+|GSM module                    | 1        | To notify the user    |[GSM](https://www.amazon.in/SIM800L-Module-Quad-band-Serial-antenna/dp/B08XBNW7K1/ref=sr_1_1?dib=eyJ2IjoiMSJ9.5CSZ3jr24VZ_9m1dLNz7oK9qjjb7eMlrR7j2ipKb0ymV_1BJVNx1vUzzCqRRz64UJDz6_Qjub4KS1YxZ-6em3NP5LtY3QJwohTKKjew47taUjZ8Y7Wogr23gIaeM0T-nKiLfY9wYC6uEsk3h1oCCejT8DxumbPznCMOj7l49h-bAEbtCdbqiaww7iLFbp5ljUylyKvGGpWHYdtXCTqhrYD4taIvabDGjGrd-al4my0I.bXGKbF0opOkS4n4afDpoBZDfd5RBUISMPUJv7Wti764&dib_tag=se&keywords=sim800l+gsm+module&qid=1721150521&sr=8-1   )            |
 |                              |          | about the stocks      |                  |
 
 ## Table for Pin Connections
-| Arduino              | Humidity Sensor       | OLED                                                    |
-|----------------------|-----------------------|---------------------------------------------------------|
-| 3V3                  | VCC                   |                                                         |
-| GND                  | GND                   |   GND                                                   |
-| D2                   | DATA                  |                                                         |
-| 5V                   |                       |   VCC                                                   |
-| A4                   |                       |   SDA                                                   |
-| A5                   |                       |   SCL                                                   |
+| Arduino              | RFID READER           | GSM                |  Ultra sonic                      |
+|----------------------|-----------------------|--------------------|-----------------------------------|
+| -9                   |  RST                  |  RXD               |                                   |
+|  12                  |  MISO                 |                    |                                   |
+| -11                  |  MOS1                 |                    |                                   |
+|  13                  |   SCL                 |                    |                                   |
+|  -10                 |   SDA                 |   TXD              |                                   |
+| VCC                  |   3.3V                |   VCC              |  VCC                              |
+| GND                  |    GND                |   GND              |  GND                              |
+| 7                    |                       |                    |  TRIG                             |
+| 8                    |                       |                    |  ECHO                             | 
+
 
 ## BLOCK DIAGRAM
 ![vending machine](https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/final%20vending.jpg))
@@ -47,7 +49,94 @@
 
 
 ## WORKING CODE
+```
+#include <SPI.h>
+#include <MFRC522.h>
+#include <Ultrasonic.h>
+#include <SoftwareSerial.h>
 
+// Define pins
+#define SS_PIN 10
+#define RST_PIN 9
+#define MOTOR_PIN1 5
+#define MOTOR_PIN2 6
+#define TRIG_PIN 7
+#define ECHO_PIN 8
+
+// Define RFID
+MFRC522 rfid(SS_PIN, RST_PIN);
+
+// Define ultrasonic sensor
+Ultrasonic ultrasonic(TRIG_PIN, ECHO_PIN);
+
+// Define GSM
+SoftwareSerial gsm(2, 3); // RX, TX
+
+void setup() {
+  Serial.begin(9600);
+  SPI.begin();
+  rfid.PCD_Init();
+  
+  // Motor pins
+  pinMode(MOTOR_PIN1, OUTPUT);
+  pinMode(MOTOR_PIN2, OUTPUT);
+
+  // GSM init
+  gsm.begin(9600);
+  sendSMS("System Initialized");
+
+  Serial.println("Setup Complete");
+}
+
+void loop() {
+  // Check for RFID card
+  if (rfid.PICC_IsNewCardPresent() && rfid.PICC_ReadCardSerial()) {
+    String cardID = "";
+    for (byte i = 0; i < rfid.uid.size; i++) {
+      cardID += String(rfid.uid.uidByte[i], HEX);
+    }
+    cardID.toUpperCase();
+    Serial.println("Card ID: " + cardID);
+
+    // Authorized card ID (example)
+    if (cardID == "YOUR_CARD_ID") {
+      dispenseItem();
+    } else {
+      Serial.println("Unauthorized card");
+    }
+    rfid.PICC_HaltA();
+  }
+  
+  // Check stock
+  long distance = ultrasonic.read();
+  if (distance < 10) { // Assuming 10 cm is the threshold for "empty"
+    sendSMS("Stock is empty. Please refill.");
+  }
+}
+
+void dispenseItem() {
+  // Rotate motor to dispense
+  digitalWrite(MOTOR_PIN1, HIGH);
+  digitalWrite(MOTOR_PIN2, LOW);
+  delay(1000); // Adjust the time as needed
+  digitalWrite(MOTOR_PIN1, LOW);
+  digitalWrite(MOTOR_PIN2, LOW);
+  
+  Serial.println("Item dispensed");
+}
+
+void sendSMS(String message) {
+  gsm.println("AT+CMGF=1"); // Set SMS to text mode
+  delay(1000);
+  gsm.println("AT+CMGS=\"+919353981556\""); // Replace with your phone number
+  delay(1000);
+  gsm.println(message);
+  delay(1000);
+  gsm.println((char)26); // ASCII code of CTRL+Z to send message
+  delay(1000);
+  Serial.println("SMS sent: " + message);
+}
+```
 
 
 
@@ -56,6 +145,7 @@
 https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/vending%20video.mp4
 
 ## Final Vedio
+https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/finalll%20video.mp4
 
 
 ### OBJECTIVES
