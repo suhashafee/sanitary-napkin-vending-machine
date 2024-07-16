@@ -30,18 +30,21 @@
 |                              |          | about the stocks      |                  |
 
 ## Table for Pin Connections
-| Arduino              | RFID READER           | GSM                |  Ultra sonic                      |
-|----------------------|-----------------------|--------------------|-----------------------------------|
-| -9                   |  RST                  |  RXD               |                                   |
-|  12                  |  MISO                 |                    |                                   |
-| -11                  |  MOS1                 |                    |                                   |
-|  13                  |   SCL                 |                    |                                   |
-|  -10                 |   SDA                 |   TXD              |                                   |
-| VCC                  |   3.3V                |   VCC              |  VCC                              |
-| GND                  |    GND                |   GND              |  GND                              |
-| 7                    |                       |                    |  TRIG                             |
-| 8                    |                       |                    |  ECHO                             | 
-
+| Arduino              | RFID READER           | GSM                |  Ultra sonic      |   MOTOR        |
+|----------------------|-----------------------|--------------------|-------------------|----------------|
+|  9                   |  RST                  |                    |                   |                |
+|  12                  |  MISO                 |                    |                   |                |
+|  11                  |  MOSI                 |                    |                   |                |
+|  13                  |  SCK                  |                    |                   |                |
+|  10                  |  SDA                  |                    |                   |                |
+| VCC                  |  3.3V                 |   VCC              |  VCC              |                |
+| GND                  |  GND                  |   GND              |  GND              |                |
+| 7                    |                       |                    |  TRIG             |                |
+| 8                    |                       |                    |  ECHO             |                | 
+| 5                    |                       |                    |                   |MOTORPIN 1      |
+| 6                    |                       |                    |                   |MOTORPIN2       |
+| 2                    |                       | RX                 |                   |                |
+| 3                    |                       | TX                 |                   |                |
 
 ## BLOCK DIAGRAM
 ![vending machine](https://github.com/suhashafee/sanitary-napkin-vending-machine/blob/main/final%20vending.jpg))
