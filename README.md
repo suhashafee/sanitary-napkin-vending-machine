@@ -42,7 +42,7 @@
 | A5                   |                       |   SCL                                                   |
 
 ## BLOCK DIAGRAM
-
+![Solar](https://github.com/suhashafee/solar-hot-box/blob/main/SOLARR.png)
 
 
 
